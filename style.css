@@ -1,0 +1,168 @@
+/* Estilos para el título principal */
+#titulo-principal {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para los subtítulos */
+.subtitulo {
+    color: #34495e;
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Estilos para el párrafo de descripción */
+.descripcion {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7f8c8d;
+    text-align: justify;
+}
+
+/* Estilos para la hoja de vida */
+#hoja-de-vida {
+    font-size: 18px;
+    color: #2980b9;
+    font-style: italic;
+}
+
+/* Estilos para la imagen de perfil */
+#foto-perfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #ecf0f1;
+}
+
+/* Estilos para los enlaces de redes sociales */
+#redes-sociales {
+    list-style-type: none;
+    padding: 0;
+}
+
+#redes-sociales li {
+    margin: 10px 0;
+}
+
+#redes-sociales a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+#redes-sociales a:hover {
+    color: #3498db;
+}
+
+/* Estilos para las listas de pasatiempos y tareas */
+.lista-pasatiempos, .lista-tareas {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilos para la tabla */
+#tabla-horarios {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#tabla-horarios th, #tabla-horarios td {
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla-horarios th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#tabla-horarios td {
+    background-color: #ecf0f1;
+}
+
+
+/* Estilos generales para el formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Los elementos se apilan verticalmente */
+    gap: 15px; /* Espacio entre cada elemento */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para las etiquetas (labels) */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilo para los campos de texto y el área de mensaje */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+/* Estilo para el área de texto (textarea) */
+textarea {
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+    min-height: 120px; /* Altura mínima */
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 18px;
+}
+
+/* Estilo para el botón de envío cuando se pasa el cursor sobre él */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+/* Centrado del contenedor */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 100vh; /* Altura mínima igual al 100% de la ventana */
+}
+
+/* Contenedor que centraliza el formulario */
+.container {
+    max-width: 600px;
+    width: 100%; /* Asegura que el formulario se ajuste en pantallas pequeñas */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Fondo de la página */
+body {
+    background-color: #f9f9f9; /* Color de fondo muy claro */
+}

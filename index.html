@@ -5,62 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mi</title>
     <title>Formulario Básico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        label {
-            display: block;
-            margin: 10px 0 5px;
-            font-weight: bold;
-        }
-        input, textarea, select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <h1>Sobre Mi</h1>
     <h2>Introducción</h2>
-    <p>¡Hola! Soy [Tu Nombre], y en esta página te contaré un poco más sobre mí. Me gusta aprender nuevas tecnologías, explorar diferentes temas y compartir mis ideas con el mundo.</p>
+    <p>¡Hola! Soy Jair Salcedo, y en esta página te contaré un poco más sobre mí. Me gusta aprender nuevas tecnologías, explorar diferentes temas y compartir mis ideas con el mundo.</p>
 
     <!-- Paso 2: Añadir encabezados y párrafos -->
-    <h2>Hoja de Vida</h2>
-    <p>Mi nombre es Jair Salcedo, soy profesional en Sistemas. Me apasiona la programación, ir al cine, estudiar.</p>
+    <h2 class="subtitulo">Hoja de Vida</h2>
+    <p class="descripcion">Mi nombre es Jair Salcedo, soy profesional en Sistemas. Me apasiona la programación, ir al cine, estudiar.</p>
 
     <!-- Paso 3: Insertar una imagen y añadir enlaces -->
-    <h2>Mi Foto</h2>
-    <img src="foto.png" alt="Foto de [Tu Nombre]" width="300" height="300">
+    <h2 class="subtitulo">Mi Foto</h2>
+    <img src="foto.png" alt="Foto de Jair" width="300" height="300">
 
-    <h2>Redes Sociales</h2>
+    <h2 class="subtitulo">Redes Sociales</h2>
     <ul>
         <li><a href="https://www.instagram.com/#" target="_blank">Instagram</a></li>
         <li><a href="https://www.linkedin.com/in/#" target="_blank">LinkedIn</a></li>
@@ -68,21 +29,21 @@
     </ul>
 
     <!-- Paso 4: Crear listas y tablas -->
-    <h2>Mis Pasatiempos</h2>
+    <h2 class="subtitulo">Mis Pasatiempos</h2>
     <ul>
         <li>Leer libros</li>
         <li>Programar</li>
         <li>Ir al cine</li>
     </ul>
 
-    <h2>Mis Tareas Pendientes</h2>
+    <h2 class="subtitulo">Mis Tareas Pendientes</h2>
     <ol>
         <li>Estudiar</li>
         <li>Aprender dearrollo de videojuegos</li>
         <li>Revisar el proyecto de programación</li>
     </ol>
 
-    <h2>Mi Horario Semanal</h2>
+    <h2 class="subtitulo">Mi Horario Semanal</h2>
     <table border="1">
         <thead>
             <tr>
@@ -121,6 +82,7 @@
             </tr>
         </tbody>
     </table>
+</div>
     <div class="container">
         <h1>Formulario de Contacto</h1>
         <form action="#" method="post">
