@@ -166,3 +166,70 @@ body {
 body {
     background-color: #f9f9f9; /* Color de fondo muy claro */
 }
+
+
+/* Estilos generales para la calculadora */
+#titulo-principal {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para los campos de entrada y el botón */
+input[type="number"],
+select,
+button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilos para el resultado */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+/* Centrado del contenedor */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo muy claro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 100vh; /* Altura mínima igual al 100% de la ventana */
+}
+
+/* Contenedor que centraliza la calculadora */
+.container {
+    max-width: 400px;
+    width: 100%; /* Asegura que el formulario se ajuste en pantallas pequeñas */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
